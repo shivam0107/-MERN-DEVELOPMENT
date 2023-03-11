@@ -1,0 +1,78 @@
+.box{
+     border: 1px solid black;
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right ,red,blue);
+    background-image: linear-gradient(to bottom ,red,blue);
+    background-image: linear-gradient(orange,white,green);
+    background-image: linear-gradient(to right ,red,blue);
+    background-image: linear-gradient(red,blue);
+
+
+
+}
+p{
+    text-align: center;
+}
+
+.mydiv{
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background-image: radial-gradient(circle, rgb(89, 255, 0),blue,orange);
+    background-image: radial-gradient(yellow 5%,orange 10% ,red 50%,green );
+}
+
+/* hw conic gradient */
+
+.conic-gradient{
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    background:conic-gradient(red,green,blue,yellow);
+    background: conic-gradient(from 0.25turn at 50% 30%, #020201, 10deg, #a63f5e, 350deg, #ebf8e1);
+    
+    background:conic-gradient(from 45deg, blue, rgb(0, 255, 162));
+    background:conic-gradient(from 90deg at 0 0, blue, red);
+    background: conic-gradient(
+        hsl(360, 100%, 50%),
+        hsl(315, 100%, 50%),
+        hsl(270, 100%, 50%),
+        hsl(225, 100%, 50%),
+        hsl(180, 100%, 50%),
+        hsl(135, 100%, 50%),
+        hsl(90, 100%, 50%),
+        hsl(45, 100%, 50%),
+        hsl(0, 100%, 50%));
+
+        background:conic-gradient(red 40grad, 80grad, blue 360grad);
+        background: conic-gradient(
+            #fff 0.25turn,
+            #000 0.25turn 0.5turn,
+            #fff 0.5turn 0.75turn,
+            #000 0.75turn
+          ) top left / 25% 25% repeat;
+        border: 1px solid;
+
+    background: conic-gradient(from 0.25turn at 50% 30%, #020201, 10deg, #a63f5e, 350deg, #ebf8e1);
+    background:conic-gradient(from 90deg at 0 0, blue, red);
+    background:conic-gradient(red,green,blue,yellow);
+
+
+    background:conic-gradient(red 40grad, 80grad, blue 360grad);
+    background: conic-gradient(
+        #fff 0.25turn,
+        #000 0.25turn 0.5turn,
+        #fff 0.5turn 0.75turn,
+        #000 0.75turn
+      ) top left / 25% 25% repeat;
+    border: 1px solid;
+    
+
+
+
+}

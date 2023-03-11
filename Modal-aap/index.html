@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Aap</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- wrapper -->
+    <section class="bg-black flex flex-col justify-center items-center h-[100vh] w-[100vw]">
+
+        <div class="circle1">
+            
+        </div>
+        <div class="circle2"></div>
+
+        <!-- content  -->
+
+        <div class="wrapper flex flex-col gap-10 justify-center items-center bg-slate-400 w-[400px] p-5 rounded-md">
+            <div class="image">
+                <img src="images/1678274865017.jpg" alt="" class="w-[200px] rounded-full">
+            </div>
+
+            <div class="name">
+                <h2 class="font-bold text-2xl font-serif text-white">Shivam singh</h2>
+            </div>
+
+            <div class="about flex flex-col justify-center items-center">
+                
+                <h2 class="text-blue-800 text-xl">Aspiring - Full stack Developer</h2>               
+                <h2 class="text-blue-800 font-serif italic"> MERN - Developer</h2>
+            </div>
+
+            <div class="reachOut">
+                <div class="shareProfile flex gap-5">
+                    <button onclick="openModal()" class="modal border-2  rounded p-3 font-bold hover:bg-white">
+                        <i class="fa-solid fa-share"></i>
+                        Share My Profile
+                    </button>
+
+                    <button class="border-2 rounded p-3 font-bold hover:bg-white">
+                        Follow me
+                    </button>
+
+                </div>
+
+                
+            </div>
+        </div>
+
+
+         <!-- Modal section  -->
+
+        <section class="bg-white  rounded flex flex-col gap-5 justify-start items-center  h-[10em] w-[20em]">
+            <div>
+                
+            </div>
+            <h1 class="border-b border-6">Share my profile   <span><i class="fa-solid fa-xmark"></i></span></h1>
+          
+            <h3>Share this link</h3>
+    
+            <div class="icons flex gap-4 ">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp text-green-500  rounded-full border p-1 border-green-700"></i>
+
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-facebook  text-blue-500  rounded-full border p-1 border-blue-700"></i>
+
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-twitter  text-blue-400  rounded-full border p-1 border-blue-700"></i>
+
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-instagram  text-orange-500  rounded-full border p-1 border-orange-700"></i>
+
+                </a>
+                <a href="">
+                    <i class="fa-brands fa-linkedin  text-blue-500  rounded-full border p-1 border-blue-700"></i>
+
+                </a>
+            </div>
+        </section>
+
+
+        <!-- overlay -->
+
+        <div class="overlay" onclick="closeModal()"></div>
+
+
+
+
+
+</section>
+
+
+
+<script src="index.js"></script>
+   
+    
+</body>
+</html>
