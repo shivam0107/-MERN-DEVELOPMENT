@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modal Aap</title>
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 </head>
 <body>
@@ -39,7 +40,7 @@
 
             <div class="reachOut">
                 <div class="shareProfile flex gap-5">
-                    <button onclick="openModal()" class="modal border-2  rounded p-3 font-bold hover:bg-white">
+                    <button id="openModal" onclick="openModal()" class="border-2  rounded p-3 font-bold hover:bg-white">
                         <i class="fa-solid fa-share"></i>
                         Share My Profile
                     </button>
@@ -57,11 +58,11 @@
 
          <!-- Modal section  -->
 
-        <section class="bg-white  rounded flex flex-col gap-5 justify-start items-center  h-[10em] w-[20em]">
+        <section class="bg-white modal  rounded flex flex-col gap-5 justify-start items-center  h-[10em] w-[20em]">
             <div>
                 
             </div>
-            <h1 class="border-b border-6">Share my profile   <span><i class="fa-solid fa-xmark"></i></span></h1>
+            <h1 class="border-b border-6">Share my profile   <span><i id="closeModal" onclick="closeModal()"  class="fa-solid fa-xmark"></i></span></h1>
           
             <h3>Share this link</h3>
     
@@ -92,7 +93,7 @@
 
         <!-- overlay -->
 
-        <div class="overlay" onclick="closeModal()"></div>
+        <div id="closeModal" class="overlay" onclick="closeModal()"></div>
 
 
 
