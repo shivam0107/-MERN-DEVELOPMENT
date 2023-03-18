@@ -1,10 +1,3 @@
-// const modal = document.querySelector(".modal");
-// const overlay = document.querySelector(".overlay");
-
-// let openModal = document.querySelector("#openModal");
-// let closeModal = document.querySelector("#closeModal");
-
-
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 
@@ -21,21 +14,20 @@ const closeModal = () => {
   overlay.classList.remove("overlayactive");
 };
 
-// openModal.addEventListener('click' , function(){
-//     console.log("Modal is Open");
-//         modal.classList.add("active");
-    
-//          overlay.classList.add("overlayactive");
 
-// });
+var typeData = new Typed(".role",{
+  strings: [
+      "Full Stack developer",
+      "Web Developer",
+      "React-Developer",
+      "Backend Developer",
+      "Coder",
 
-// closeModal.addEventListener('click' , function(){
-//     // console.log("Modal is Open");
-//         modal.classList.remove("active");
-    
-//          overlay.classList.remove("overlayactive");
+  ],
+  loop:true,
+  typeSpeed:100,
+  backSpeed:80,
+  backDelay:1000,
+}
 
-// });
-
-
-
+);
