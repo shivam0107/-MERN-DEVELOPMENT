@@ -245,13 +245,18 @@
     color: #fff;
   }
   
-  #telegram {
+  #linkedin{
     color: #0081c2;
     border: 1px solid #0081c2;
   }
-  #telegram:hover {
+  #linkedin:hover {
     background-color: #0081c2;
     color: #fff;
+  }
+
+  #mail:hover{
+    color: #fff;
+    background-color: #0082c2;
   }
   
   .active {
@@ -273,6 +278,8 @@
     pointer-events: initial;
   }
 
+
+  
 
   @media (max-width: 850px) {
     .card-wrapper {
@@ -310,5 +317,41 @@
     }
     .modal {
       width: 80vw;
+      
     }
+
+    .modal-header h1{
+        font-size: 22px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+  
   }
+
+  @media (max-width:470px){
+    .modal-header h1{
+        font-size: 22px;
+    }
+
+    .icon{
+        width: 20px;
+        height: 20px;
+    }
+
+  }
+
+  @media (max-width:375px){
+    .modal-header h1{
+        font-size: 15px;
+    }
+
+    .icon{
+        width: 15px;
+        height: 15px;
+    }
+
+  }
+
