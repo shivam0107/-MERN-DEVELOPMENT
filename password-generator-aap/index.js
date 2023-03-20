@@ -13,7 +13,7 @@ const generateBtn = document.querySelector(".generateButton");
 const allCheckBox = document.querySelectorAll("input[type=checkbox]");
 const symbols = '~`!@#$%^&*()_-+={[}]|:;"<,>.?/';
 
-//initially
+//initially variable declared
 let password = "";
 let passwordLength = 10;
 let checkCount = 0;
