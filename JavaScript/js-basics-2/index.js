@@ -3,18 +3,18 @@ console.log('shivam singh');
 
 
 
-// let rectangle1 = {
-//     length : 1,
-//     breath  :2,
+let rectangle1 = {
+    length : 1,
+    breath  :2,
 
 
 
-//     draw:function() {
-//         console.log('draw');
-//     }
-// };
+    draw:function() {
+        console.log('draw');
+    }
+};
 
-// console.log(rectangle);
+console.log(rectangle);
 
 
 //factory function
@@ -50,14 +50,14 @@ console.log('shivam singh');
 //construction function --> Prop/method ->initialize/define
 
 
-// function Rectangle(len , bre)
-// {
-//     this.length =len;
-//     this.braeth = bre;
-//     this.draw = function(){
-//         console.log('draw');
-//     };
-//  }
+function Rectangle(len , bre)
+{
+    this.length =len;
+    this.braeth = bre;
+    this.draw = function(){
+        console.log('draw');
+    };
+ }
 
 
  //object creation using construction
@@ -73,17 +73,17 @@ console.log('shivam singh');
 //   console.log(rectangleObject);
 
 
-// let Rectangle1  = new Function(
+let Rectangle1  = new Function(
 
-//     `length`, `breath`,` 
-//     this.length =length;
-//     this.braeth = breath;
-//     this.draw = function(){
-//         console.log('draw');
-//     }`
-// );
+    `length`, `breath`,` 
+    this.length =length;
+    this.braeth = breath;
+    this.draw = function(){
+        console.log('draw');
+    }`
+);
 
-// let  rect = new Rectangle1(2,3);
+let  rect = new Rectangle1(2,3);
 
 // rect.length;
 
