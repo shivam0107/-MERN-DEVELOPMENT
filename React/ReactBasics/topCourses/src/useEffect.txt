@@ -1,0 +1,53 @@
+// class based components
+
+
+// life ctcle methods
+// 1 - componentsDidMount
+// 1 - componentsDidUpdate;
+// 1 - componentsWillUnmount;
+
+
+
+
+//variation 1 -> execute at every render
+// useEffect(() => {
+
+//   console.log('Ui rendering done');
+
+// });
+
+
+
+//variation -- 2 first render
+// useEffect(() => {
+
+//   console.log('Ui rendering done');
+
+// } , []);
+
+
+
+
+
+//variation -- 3 first render --> when dependency change
+// useEffect(() => {
+//   console.log("change observed");
+// }, [name]);
+
+
+
+
+
+//variation -- 4 to handle unmounting of a component
+
+// useEffect(() => {
+  //add event listner
+  //this will execute later
+
+//   console.log("listner added");
+
+//   return () => {
+    //this will execute first
+//     console.log("listner remove");
+//   };
+// }, [text]);

@@ -1,0 +1,8 @@
+.play-btn{
+    background-color: green;
+    cursor: pointer;
+}
+
+.play-btn:hover{
+    background-color: cyan;
+}

@@ -1,0 +1,41 @@
+.dark{
+    background-color: aqua;
+}
+
+.container{
+    width: 15em;
+    margin: 0 , 0.2em;
+    float: left;
+}
+
+.pic , img{
+    width: 100%;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.channel , .views{
+    font-size: small;
+    color: black;
+    margin-bottom: 0.2em;
+}
+
+.views span{
+    padding: 0 0.5em;
+  
+
+
+}
+
+.views{
+    color: black;
+}
+
+.thumb{
+    height: 10em;
+    width: 10em;
+}
+

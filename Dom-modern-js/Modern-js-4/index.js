@@ -38,38 +38,38 @@
 
 
 
-// let  merapromise1 =  new Promise(function(resolve,reject){
-//     // console.log('i am inside promise');
-//     // resolve(1998);
+let  merapromise1 =  new Promise(function(resolve,reject){
+    console.log('i am inside promise');
+    resolve(1998);
 
 
-//     setTimeout(function(){
-//         console.log('i am inside the promise ');
+    setTimeout(function(){
+        console.log('i am inside the promise ');
 
-//     },5000);
+    },5000);
 
         
 
-//     // resolve(2233);
-//     reject(new Error('bhaishab error aaye hai'));
-// });
+    resolve(2233);
+    reject(new Error('bhaishab error aaye hai'));
+});
 
-// merapromise1.then((value) => { console.log(value)} , (error) => { console.log('recieved an error' )});
-// merapromise1.catch();
+merapromise1.then((value) => { console.log(value)} , (error) => { console.log('recieved an error' )});
+merapromise1.catch();
 
-// let  merapromise2 =  new Promise(function(resolve,reject){
-//     // console.log('i am inside promise');
-//     // resolve(1998);
+let  merapromise2 =  new Promise(function(resolve,reject){
+    // console.log('i am inside promise');
+    // resolve(1998);
 
 
-//     setTimeout(function(){
-//         console.log('i am inside the promise ');
+    setTimeout(function(){
+        console.log('i am inside the promise ');
 
-//     },3000);
+    },3000);
 
-//     // resolve(2233);
-//     // reject(new Error('bhaishab error aaye hai'));
-// });
+    // resolve(2233);
+    // reject(new Error('bhaishab error aaye hai'));
+});
 
 
 
@@ -202,15 +202,15 @@
 // CLOSURES
 
 
-function init() {
-    let name = "Mozilla"; // name is a local variable created by init
-    function displayName() {
-      // displayName() is the inner function, that forms the closure
-      console.log(name); // use variable declared in the parent function
-    }
-    return displayName;
-  }
-   let a  =  init();
+// function init() {
+//     let name = "Mozilla"; // name is a local variable created by init
+//     function displayName() {
+//       // displayName() is the inner function, that forms the closure
+//       console.log(name); // use variable declared in the parent function
+//     }
+//     return displayName;
+//   }
+//    let a  =  init();
 
 
-   a();
+//    a();

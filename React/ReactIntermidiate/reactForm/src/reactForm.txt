@@ -1,0 +1,30 @@
+
+  const [formData, setFormData] = useState(
+    {
+      firstName: "shivam ",
+      lastName: "singh"
+    }
+  
+  );
+
+ updating value using single statement
+
+
+  function changehandler(event) {
+    setFormData((preFormData) => {
+      return {
+        ...preFormData,
+         [event.target.name] : event.target.value
+         
+        }
+      })
+  }
+
+
+
+// controlled statement
+ maintain state inside component
+
+ whole state -- form data maintain 
+
+ but for every input -- we maintain state  --- value attribute
